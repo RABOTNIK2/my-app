@@ -2,13 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-       
-      </header>
-    </div>
-  );
+  let text;
+  const isAdult=true;
+  if(isAdult==true){
+    <p>иидии сюда</p>
+  }
+  else{
+    <p>шёл нафиг</p>
+  }
+  return {text};
+
 }
 
 export default App;
